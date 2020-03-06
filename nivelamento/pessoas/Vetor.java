@@ -7,7 +7,7 @@ public class Vetor <G>{
     protected G[] elementos;
     private int tamanho;
     private int tamanhoFixo;
-    // Métodos Especiais
+    // MÃ©todos Especiais
     public Vetor(int capasidade){
         this.elementos = (G[]) new Object[capasidade];
         this.tamanhoFixo = capasidade;
@@ -16,7 +16,7 @@ public class Vetor <G>{
         this.elementos = elementos;
         this.tamanhoFixo = elementos.length;
     }
-    // Métodos
+    // MÃ©todos
     public void adiciona(G elemento){
         try{
             this.elementos[this.getTamanho()] = elemento;
@@ -42,7 +42,7 @@ public class Vetor <G>{
         int posicao = this.pergarPosicao(elemento);
 
         if(posicao < 0){
-            throw new IllegalArgumentException("O elemento não existe no vetor");
+            throw new IllegalArgumentException("O elemento nÃ£o existe no vetor");
         }
         else if(posicao >= 0 && posicao < this.tamanhoFixo){
             for (int i = this.pergarPosicao(elemento); i < this.tamanho; i++) {
@@ -80,7 +80,7 @@ public class Vetor <G>{
         if(key < this.tamanhoFixo && key >= 0){
             this.elementos[key] = elemento;
         }else{
-            throw new IllegalArgumentException("A posição "+key+" não existe no vetor");
+            throw new IllegalArgumentException("A posiï¿½ï¿½o "+key+" nï¿½o existe no vetor");
         }
     }
 
@@ -100,7 +100,7 @@ public class Vetor <G>{
 
     public G buscar(int key) throws IllegalArgumentException{
         if( !( key <= this.tamanhoFixo && key >= 0) ){
-            throw new IllegalArgumentException("A posição "+key+" não existe no vetor");
+            throw new IllegalArgumentException("A posiï¿½ï¿½o "+key+" nï¿½o existe no vetor");
         }
 
         return this.elementos[key];
@@ -117,11 +117,10 @@ public class Vetor <G>{
     }
 
     /**
-     * @param vetorOriginal Recebe o vetor que deverá ser duplicado
+     * @param vetorOriginal Recebe o vetor que dever ser duplicado
      * @return retorna um vetor
      */
     public G[] recriarVetorDuplicado(G[] vetorOriginal){
-        // Duplica o vetor e passa para o método recriarVetor que é responsavel por fazer a logíca para colocar os elemenos no novo vetor
         G[] novoVetor = (G[]) new Object[vetorOriginal.length * 2];
         return this.recriarVetor(novoVetor, vetorOriginal, vetorOriginal.length-1);
     }

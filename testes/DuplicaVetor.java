@@ -1,4 +1,6 @@
-package reculsividade;
+package testes;
+
+import reculsividade.Lista;
 
 public class DuplicaVetor {
     public static void main(String[] args) {
@@ -16,6 +18,5 @@ public class DuplicaVetor {
         vetor.delete(8);
 
         System.out.println(vetor.find(6));
-
     }
 }

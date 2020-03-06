@@ -7,7 +7,7 @@ public class Pessoa {
     protected String nome;
     protected String sobrenome;
     protected String CPF;
-    // Métodos Especiais
+    // MÃ©todos Especiais
 
     public Pessoa(String nome, String sobrenome, String CPF) {
         this.nome = nome;

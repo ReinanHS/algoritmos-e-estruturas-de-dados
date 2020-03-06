@@ -20,21 +20,21 @@ public class EncomtrarPosicao {
         System.out.println(Arrays.toString(vetor));
         int [] result = acharPosicaoDivisao(vetor, numeroDoUsuario);
 
-        System.out.println("Posição no vetor: "+result[1]);
+        System.out.println("PosiÃ§Ã£o no vetor: "+result[1]);
         System.out.println("Tentativas: "+result[0]);
 
         int media = 0;
 
 //        for (int valor: vetor) {
 //            int[] result = acharPosicaoDivisao(vetor, valor, primeira, ultima, 0);
-//            System.out.println("Posição no vetor: "+result[1]);
+//            System.out.println("PosiÃ§Ã£o no vetor: "+result[1]);
 //            System.out.println("Tentativas: "+result[0]);
 //            media += result[0];
 //        }
 //
 //        media = media / vetor.length;
 //
-//        System.out.println("Média: "+media);
+//        System.out.println("MÃ©dia: "+media);
     }
 
     public static int[] acharPosicaoDivisao(int[] vetor, int n){
