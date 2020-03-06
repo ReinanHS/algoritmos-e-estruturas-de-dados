@@ -1,33 +1,30 @@
 package reculsividade;
 
 import java.io.File;
-import java.util.Arrays;
 
 public class ListarArquivos {
-    public static void main(String[] args) {
-        File file = new File("C:\\Program Files");
-        //System.out.println(Arrays.toString(file.listFiles()));
-        //File files[] = file.listFiles();
-        //System.out.println(files[2].getAbsolutePath() );
-
-        ListaFiles(file);
-
-    }
-
-    public static void ChamarFuncao(File[] files, int index){
+    /*
+    *   Função responsável por chamar a função ListarFiles de forma recursiva
+    */
+    private static void chamarFuncao(File[] files, int index){
         if(index < files.length){
-            ListaFiles(files[index]);
-            ChamarFuncao(files, index + 1);
+            listaFiles(files[index]);
+            chamarFuncao(files, index + 1);
         }
     }
 
-    public static void ListaFiles(File file){
+    /*
+    *   Função para imprimir arquivos e pastas a partir de um determinado diretório
+     */
+    public static void listaFiles(File file){
+        // Verifica se o diretório que foi passado é uma pasta ou arquivo
         if( file.isDirectory()){
 
             System.out.println("Diretorio: "+file.getAbsolutePath());
 
             try{
-                ChamarFuncao(file.listFiles(), 0);
+                // Função responsável por percorrer o vetor e chamar a função de forma recursiva
+                chamarFuncao(file.listFiles(), 0);
             }catch (NullPointerException e){
                 //
             }

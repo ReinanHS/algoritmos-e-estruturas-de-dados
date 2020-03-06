@@ -2,7 +2,7 @@ package testes;
 
 import reculsividade.Lista;
 
-public class DuplicaVetor {
+public class TLista {
     public static void main(String[] args) {
         Lista<Integer> vetor = new Lista<>();
         vetor.add(5);
