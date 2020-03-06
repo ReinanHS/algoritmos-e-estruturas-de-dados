@@ -1,4 +1,4 @@
-package reculsividade;
+package exercicios.reculsividade;
 
 public class Lista<G> {
     // Atributos

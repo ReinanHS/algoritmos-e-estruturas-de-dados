@@ -1,4 +1,4 @@
-package reculsividade;
+package exercicios.reculsividade;
 
 import java.io.File;
 

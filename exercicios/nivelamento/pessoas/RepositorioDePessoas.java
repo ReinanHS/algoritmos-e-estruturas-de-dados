@@ -1,4 +1,4 @@
-package nivelamento.pessoas;
+package exercicios.nivelamento.pessoas;
 
 public class RepositorioDePessoas {
     public static void main(String[] args) {

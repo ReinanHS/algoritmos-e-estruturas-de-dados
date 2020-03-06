@@ -1,4 +1,4 @@
-package nivelamento.pessoas;
+package exercicios.nivelamento.pessoas;
 
 import java.util.Objects;
 

@@ -1,6 +1,6 @@
 package testes;
 
-import reculsividade.Lista;
+import exercicios.reculsividade.Lista;
 
 public class TLista {
     public static void main(String[] args) {

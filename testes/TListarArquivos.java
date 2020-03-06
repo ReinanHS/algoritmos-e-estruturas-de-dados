@@ -1,6 +1,6 @@
 package testes;
 
-import reculsividade.ListarArquivos;
+import exercicios.reculsividade.ListarArquivos;
 
 import java.io.File;
 
