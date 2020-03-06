@@ -7,6 +7,6 @@ import java.io.File;
 public class TListarArquivos {
     public static void main(String[] args) {
         File file = new File("C:\\Program Files");
-        ListarArquivos.listaFiles(file);
+        ListarArquivos.listaFilesComLimit(file, 5);
     }
 }
