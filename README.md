@@ -21,13 +21,8 @@ Planejamento inicial abaixo.
 | 2    | 13/02/20 | Exercício revisão                           | ✅           |
 | 3    | 14/02/20 | Recursividade                               | ✅           |
 | 4    | 20/04/20 | Exercícios utilizando recursividade         | ✅           |
-| 5    | 21/02/20 | Tipo abstrato de dados                      | ✅           |
-|      |          | **Ordenação**                               | ✅           |
-| 6    | 27/02/20 | Algoritmos de Ordenação - Inserção          | ✅           |
-| 7    | 28/02/20 | Algoritmos de Ordenação - Bublesort         | ✅           |
-| 8    | 29/02/20 | Técnicas de Análise de Algoritmos           | ✅           |
-| 9    | 05/03/20 | Exercícios                                  | ✅           |
-| 10   | 12/03/20 | Algoritmos de Ordenação - Quicksort         | ✅           |
+|      |          | 😷 **Paralisação por causa do COVID-19**    |              |
+| 5    | 25/09/20 | Tipo abstrato de dados                      | ✅           |
 
 ## Bibliografia
 
