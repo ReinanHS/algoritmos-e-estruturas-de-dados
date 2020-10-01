@@ -9,7 +9,7 @@ ou tirar a "carteira de motorista"; [Resposta](../../src/exercicios/atividade_02
 	- são ímpares
 	- o valor médio daqueles que são maiores que 10;
 	- [Resposta dessa questão](../../src/exercicios/atividade_02/ListaValores.java)
-- Faça um programa para ordenar uma vetor de valores inteiros não ordenados.
+- Faça um programa para ordenar uma vetor de valores inteiros não ordenados. [Resposta](../../src/exercicios/atividade_02/OrdenarVetor.java)
 
 ```java
 public int[] ordenar(int[] valores){
