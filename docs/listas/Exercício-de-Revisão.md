@@ -1,6 +1,6 @@
 # Comandos básicos
 
-- Faça um programa que calcula o IMC de uma pessoa;
+- Faça um programa que calcula o IMC de uma pessoa; [Resposta](../../src/exercicios/atividade_02/IMC.java)
 - Faça um programa que indica se uma pessoa pode ou não votar
 ou tirar a "carteira de motorista";
 - Faça um programa que recebe N valores e calcula a média e maior nota;
