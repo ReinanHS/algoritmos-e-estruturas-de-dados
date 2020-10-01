@@ -14,15 +14,16 @@ Introdução a estruturas de dados; análise  assintótica  de  algoritmos:  pio
 
 Planejamento inicial abaixo.
 
-| Aula | Data     | **Assunto**                                 | Informações  |
-|------|----------|---------------------------------------------|--------------|
-|      | 06/02/20 | **Apresentação da disciplina e revisão**    | ✅           |
-| 1    | 07/02/20 | **Apresentação da disciplina e revisão**    | ✅           |
-| 2    | 13/02/20 | Exercício revisão                           | ✅           |
-| 3    | 14/02/20 | Recursividade                               | ✅           |
-| 4    | 20/04/20 | Exercícios utilizando recursividade         | ✅           |
-|      |          | 😷 **Paralisação por causa do COVID-19**    |              |
-| 5    | 25/09/20 | Tipo abstrato de dados                      | ✅           |
+| Aula | Data     | **Assunto**                                   | Informações  |
+|------|----------|-----------------------------------------------|--------------|
+|      | 06/02/20 | **Apresentação da disciplina e revisão**      | ✅           |
+| 1    | 07/02/20 | **Apresentação da disciplina e revisão**      | ✅           |
+| 2    | 13/02/20 | Exercício revisão                             | ✅           |
+| 3    | 14/02/20 | Recursividade                                 | ✅           |
+| 4    | 20/04/20 | Exercícios utilizando recursividade           | ✅           |
+|      |          | 😷 **Paralisação por causa do COVID-19**      |              |
+| 5    | 25/09/20 | Tipo abstrato de dados                        | ✅           |
+| 6    | 01/10/20 | Estudo Dirigido sobre algoritmos de ordenação |              |
 
 ## Bibliografia
 
