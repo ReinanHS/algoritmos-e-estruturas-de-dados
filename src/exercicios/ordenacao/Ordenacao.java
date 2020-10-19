@@ -20,31 +20,34 @@ public class Ordenacao {
         QuickSort quickSort = new QuickSort();
 
         System.out.println(Arrays.toString(valores));
+        System.out.println("\n");
         // InsertionSort
-//        System.out.println(Arrays.toString(insertionSort.ordenar(valores)));
-//        System.out.println(Arrays.toString(insertionSort.ordenar(valores_ordenado)));
-//        System.out.println(Arrays.toString(insertionSort.ordenar(valores_random)));
+        System.out.println(Arrays.toString(insertionSort.ordenar(valores)));
+        System.out.println(Arrays.toString(insertionSort.ordenar(valores_ordenado)));
+        System.out.println(Arrays.toString(insertionSort.ordenar(valores_random)));
 
-        //System.out.println("\n");
+        System.out.println("\n");
         // BublleSort
-//        System.out.println(Arrays.toString(bublleSort.ordenar(valores)));
-//        System.out.println(Arrays.toString(bublleSort.ordenar(valores_ordenado)));
-//        System.out.println(Arrays.toString(bublleSort.ordenar(valores_random)));
+        System.out.println(Arrays.toString(bublleSort.ordenar(valores)));
+        System.out.println(Arrays.toString(bublleSort.ordenar(valores_ordenado)));
+        System.out.println(Arrays.toString(bublleSort.ordenar(valores_random)));
 
-        //System.out.println("\n");
+        System.out.println("\n");
         // SelectionSort
-//        System.out.println(Arrays.toString(selectionSort.ordenar(valores)));
-//        System.out.println(Arrays.toString(selectionSort.ordenar(valores_ordenado)));
-//        System.out.println(Arrays.toString(selectionSort.ordenar(valores_random)));
+        System.out.println(Arrays.toString(selectionSort.ordenar(valores)));
+        System.out.println(Arrays.toString(selectionSort.ordenar(valores_ordenado)));
+        System.out.println(Arrays.toString(selectionSort.ordenar(valores_random)));
 
-        //System.out.println("\n");
+        System.out.println("\n");
         // MergeSort
-//        System.out.println(Arrays.toString(mergeSort.ordenar(valores)));
-//        System.out.println(Arrays.toString(mergeSort.ordenar(valores_ordenado)));
-//        System.out.println(Arrays.toString(mergeSort.ordenar(valores_random)));
+        System.out.println(Arrays.toString(mergeSort.ordenar(valores)));
+        System.out.println(Arrays.toString(mergeSort.ordenar(valores_ordenado)));
+        System.out.println(Arrays.toString(mergeSort.ordenar(valores_random)));
 
-        //System.out.println("\n");
+        System.out.println("\n");
         // QuickSort
         System.out.println(Arrays.toString(quickSort.ordenar(valores)));
+        System.out.println(Arrays.toString(quickSort.ordenar(valores_ordenado)));
+        System.out.println(Arrays.toString(quickSort.ordenar(valores_random)));
     }
 }
